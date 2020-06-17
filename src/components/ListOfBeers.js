@@ -27,12 +27,8 @@ class ListOfBeers extends Component{
                     <Beer
                     key={beer._id}
                     name={beer.name}
-                    image={beer.image}
-                    tagline={beer.tagline}
-                    first_brewed={beer.first_brewed}
-                    attenuation_level={beer.attenuation_level}
-                    description={beer.description}
-                    contributed_by={beer.contributed_by}/>
+                    image={beer.image_url}
+                    _id={beer._id}/>
                     )
                  })}
             </div>

@@ -6,7 +6,7 @@ function Home(){
     return(
         <div>
             <NavLink to ="/beers">Beers</NavLink>
-            <NavLink to ="/random-beer">Random-beer</NavLink>
+            <NavLink to ="/beers/random">Random-beer</NavLink>
             <NavLink to ="/new-beer">New-beer</NavLink>
         </div>
     )
